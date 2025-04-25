@@ -27,7 +27,7 @@ public class ExtentReporter {
 		sparkReporter.config().setTheme(Theme.DARK);
 		sparkReporter.config().setReportName("PnT Jan-June Automation Weekday Batch");
 		sparkReporter.config().setDocumentTitle("TutorialsNinja | AutomationSuite");
-		sparkReporter.config().setTimeStampFormat("MM/dd/yyyy hh:mm:ss");
+		//sparkReporter.config().setTimeStampFormat("MM/dd/yyyy hh:mm:ss");
 		
 		//Step 6: We need to attach the ExtentReport with the Spark Reporter
 		extentReport.attachReporter(sparkReporter);

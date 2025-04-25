@@ -53,7 +53,6 @@ public class TestBase {
         }
 
         driver.manage().deleteAllCookies();
-        driver.manage().deleteAllCookies();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(Utils.IMPLICIT_WAIT));
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(Utils.PAGELOADTIMEOUT_WAIT));
         driver.manage().timeouts().scriptTimeout(Duration.ofSeconds(Utils.SCRIPTTIMEOUT_WAIT));
