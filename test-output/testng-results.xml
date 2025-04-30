@@ -1,285 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="4" failed="5" skipped="1">
+<testng-results ignored="0" total="10" passed="8" failed="1" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-16T22:24:48 EDT" name="Hybrid Framework Suite" finished-at="2025-04-16T22:25:33 EDT" duration-ms="44998">
+  <suite started-at="2025-04-25T01:22:01 EDT" name="Hybrid Framework Suite" finished-at="2025-04-25T01:22:50 EDT" duration-ms="48182">
     <groups>
     </groups>
-    <test started-at="2025-04-16T22:24:48 EDT" name="CompleteTest" finished-at="2025-04-16T22:25:33 EDT" duration-ms="44998">
+    <test started-at="2025-04-25T01:22:01 EDT" name="CompleteTest" finished-at="2025-04-25T01:22:50 EDT" duration-ms="48182">
       <class name="com.tutorialsNinja.TestCases.RegisterTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialsNinja.TestCases.RegisterTest@72cc7e6f]" started-at="2025-04-16T22:25:10 EDT" name="setup" finished-at="2025-04-16T22:25:14 EDT" duration-ms="3903" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialsNinja.TestCases.RegisterTest@72cc7e6f]" started-at="2025-04-25T01:22:24 EDT" name="setup" finished-at="2025-04-25T01:22:29 EDT" duration-ms="4043" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyRegisterWithExistingEmail()[pri:3, instance:com.tutorialsNinja.TestCases.RegisterTest@72cc7e6f]" started-at="2025-04-16T22:25:14 EDT" name="verifyRegisterWithExistingEmail" finished-at="2025-04-16T22:25:15 EDT" duration-ms="936" status="PASS">
+        <test-method signature="verifyRegisterWithExistingEmail()[pri:3, instance:com.tutorialsNinja.TestCases.RegisterTest@72cc7e6f]" started-at="2025-04-25T01:22:29 EDT" name="verifyRegisterWithExistingEmail" finished-at="2025-04-25T01:22:29 EDT" duration-ms="879" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterWithExistingEmail -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.RegisterTest@72cc7e6f]" started-at="2025-04-16T22:25:15 EDT" name="tearDown" finished-at="2025-04-16T22:25:15 EDT" duration-ms="144" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.RegisterTest@72cc7e6f]" started-at="2025-04-25T01:22:29 EDT" name="tearDown" finished-at="2025-04-25T01:22:30 EDT" duration-ms="138" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialsNinja.TestCases.RegisterTest@72cc7e6f]" started-at="2025-04-16T22:25:15 EDT" name="setup" finished-at="2025-04-16T22:25:19 EDT" duration-ms="4009" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialsNinja.TestCases.RegisterTest@72cc7e6f]" started-at="2025-04-25T01:22:30 EDT" name="setup" finished-at="2025-04-25T01:22:33 EDT" duration-ms="3966" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyRegisterWithIncorrectConfirmPassword()[pri:4, instance:com.tutorialsNinja.TestCases.RegisterTest@72cc7e6f]" started-at="2025-04-16T22:25:19 EDT" name="verifyRegisterWithIncorrectConfirmPassword" finished-at="2025-04-16T22:25:20 EDT" duration-ms="1005" status="PASS">
+        <test-method signature="verifyRegisterWithIncorrectConfirmPassword()[pri:4, instance:com.tutorialsNinja.TestCases.RegisterTest@72cc7e6f]" started-at="2025-04-25T01:22:33 EDT" name="verifyRegisterWithIncorrectConfirmPassword" finished-at="2025-04-25T01:22:34 EDT" duration-ms="887" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterWithIncorrectConfirmPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.RegisterTest@72cc7e6f]" started-at="2025-04-16T22:25:20 EDT" name="tearDown" finished-at="2025-04-16T22:25:20 EDT" duration-ms="129" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.RegisterTest@72cc7e6f]" started-at="2025-04-25T01:22:34 EDT" name="tearDown" finished-at="2025-04-25T01:22:34 EDT" duration-ms="116" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialsNinja.TestCases.RegisterTest@72cc7e6f]" started-at="2025-04-16T22:25:20 EDT" name="setup" finished-at="2025-04-16T22:25:24 EDT" duration-ms="3620" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialsNinja.TestCases.RegisterTest@72cc7e6f]" started-at="2025-04-25T01:22:35 EDT" name="setup" finished-at="2025-04-25T01:22:38 EDT" duration-ms="3842" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyRegisterWithNoDetails()[pri:5, instance:com.tutorialsNinja.TestCases.RegisterTest@72cc7e6f]" started-at="2025-04-16T22:25:24 EDT" name="verifyRegisterWithNoDetails" finished-at="2025-04-16T22:25:24 EDT" duration-ms="601" status="PASS">
+        <test-method signature="verifyRegisterWithNoDetails()[pri:5, instance:com.tutorialsNinja.TestCases.RegisterTest@72cc7e6f]" started-at="2025-04-25T01:22:38 EDT" name="verifyRegisterWithNoDetails" finished-at="2025-04-25T01:22:39 EDT" duration-ms="681" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterWithNoDetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.RegisterTest@72cc7e6f]" started-at="2025-04-16T22:25:24 EDT" name="tearDown" finished-at="2025-04-16T22:25:24 EDT" duration-ms="122" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.RegisterTest@72cc7e6f]" started-at="2025-04-25T01:22:39 EDT" name="tearDown" finished-at="2025-04-25T01:22:39 EDT" duration-ms="117" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.tutorialsNinja.TestCases.RegisterTest -->
-      <class name="com.tutorialsNinja.TestCases.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@7d0b7e3c]" started-at="2025-04-16T22:24:48 EDT" name="setup" finished-at="2025-04-16T22:24:52 EDT" duration-ms="4206" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyLoginWithValidEmailInvalidPassword()[pri:2, instance:com.tutorialsNinja.TestCases.LoginTest@7d0b7e3c]" started-at="2025-04-16T22:24:52 EDT" name="verifyLoginWithValidEmailInvalidPassword" finished-at="2025-04-16T22:24:53 EDT" duration-ms="654" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-expected [true] but found [false]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-at com.tutorialsNinja.TestCases.LoginTest.verifyLoginWithValidEmailInvalidPassword(LoginTest.java:45)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginWithValidEmailInvalidPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@7d0b7e3c]" started-at="2025-04-16T22:24:53 EDT" name="tearDown" finished-at="2025-04-16T22:24:53 EDT" duration-ms="114" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@7d0b7e3c]" started-at="2025-04-16T22:24:53 EDT" name="setup" finished-at="2025-04-16T22:24:57 EDT" duration-ms="3413" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyLoginWithInvalidEmailValidPassword()[pri:3, instance:com.tutorialsNinja.TestCases.LoginTest@7d0b7e3c]" started-at="2025-04-16T22:24:57 EDT" name="verifyLoginWithInvalidEmailValidPassword" finished-at="2025-04-16T22:24:58 EDT" duration-ms="812" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-expected [true] but found [false]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-at com.tutorialsNinja.TestCases.LoginTest.verifyLoginWithInvalidEmailValidPassword(LoginTest.java:53)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginWithInvalidEmailValidPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@7d0b7e3c]" started-at="2025-04-16T22:24:58 EDT" name="tearDown" finished-at="2025-04-16T22:24:58 EDT" duration-ms="131" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@7d0b7e3c]" started-at="2025-04-16T22:24:58 EDT" name="setup" finished-at="2025-04-16T22:25:03 EDT" duration-ms="4861" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyLoginWithInvalidCredentials()[pri:4, instance:com.tutorialsNinja.TestCases.LoginTest@7d0b7e3c]" started-at="2025-04-16T22:25:03 EDT" name="verifyLoginWithInvalidCredentials" finished-at="2025-04-16T22:25:05 EDT" duration-ms="2269" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-expected [true] but found [false]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-at com.tutorialsNinja.TestCases.LoginTest.verifyLoginWithInvalidCredentials(LoginTest.java:61)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginWithInvalidCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@7d0b7e3c]" started-at="2025-04-16T22:25:05 EDT" name="tearDown" finished-at="2025-04-16T22:25:05 EDT" duration-ms="122" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@7d0b7e3c]" started-at="2025-04-16T22:25:05 EDT" name="setup" finished-at="2025-04-16T22:25:09 EDT" duration-ms="3440" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyLoginWithNoCredentials()[pri:5, instance:com.tutorialsNinja.TestCases.LoginTest@7d0b7e3c]" started-at="2025-04-16T22:25:09 EDT" name="verifyLoginWithNoCredentials" finished-at="2025-04-16T22:25:10 EDT" duration-ms="912" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-expected [true] but found [false]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-at com.tutorialsNinja.TestCases.LoginTest.verifyLoginWithNoCredentials(LoginTest.java:68)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginWithNoCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@7d0b7e3c]" started-at="2025-04-16T22:25:10 EDT" name="tearDown" finished-at="2025-04-16T22:25:10 EDT" duration-ms="110" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.tutorialsNinja.TestCases.LoginTest -->
       <class name="com.tutorialsNinja.TestCases.SearchTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialsNinja.TestCases.SearchTest@909217e]" started-at="2025-04-16T22:25:24 EDT" name="setup" finished-at="2025-04-16T22:25:27 EDT" duration-ms="2701" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialsNinja.TestCases.SearchTest@909217e]" started-at="2025-04-25T01:22:39 EDT" name="setup" finished-at="2025-04-25T01:22:42 EDT" duration-ms="2803" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="searchWithValidProduct()[pri:1, instance:com.tutorialsNinja.TestCases.SearchTest@909217e]" started-at="2025-04-16T22:25:27 EDT" name="searchWithValidProduct" finished-at="2025-04-16T22:25:29 EDT" duration-ms="2195" status="PASS">
+        <test-method signature="searchWithValidProduct()[pri:1, instance:com.tutorialsNinja.TestCases.SearchTest@909217e]" started-at="2025-04-25T01:22:42 EDT" name="searchWithValidProduct" finished-at="2025-04-25T01:22:46 EDT" duration-ms="3783" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchWithValidProduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.SearchTest@909217e]" started-at="2025-04-16T22:25:29 EDT" name="tearDown" finished-at="2025-04-16T22:25:29 EDT" duration-ms="121" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.SearchTest@909217e]" started-at="2025-04-25T01:22:46 EDT" name="tearDown" finished-at="2025-04-25T01:22:46 EDT" duration-ms="133" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialsNinja.TestCases.SearchTest@909217e]" started-at="2025-04-16T22:25:29 EDT" name="setup" finished-at="2025-04-16T22:25:32 EDT" duration-ms="2939" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialsNinja.TestCases.SearchTest@909217e]" started-at="2025-04-25T01:22:46 EDT" name="setup" finished-at="2025-04-25T01:22:49 EDT" duration-ms="3050" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="searchWithInvalidProduct()[pri:2, instance:com.tutorialsNinja.TestCases.SearchTest@909217e]" started-at="2025-04-16T22:25:32 EDT" name="searchWithInvalidProduct" finished-at="2025-04-16T22:25:33 EDT" duration-ms="518" status="FAIL">
+        <test-method signature="searchWithInvalidProduct()[pri:2, instance:com.tutorialsNinja.TestCases.SearchTest@909217e]" started-at="2025-04-25T01:22:49 EDT" name="searchWithInvalidProduct" finished-at="2025-04-25T01:22:49 EDT" duration-ms="519" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
@@ -325,11 +107,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchWithInvalidProduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.SearchTest@909217e]" started-at="2025-04-16T22:25:33 EDT" name="tearDown" finished-at="2025-04-16T22:25:33 EDT" duration-ms="110" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.SearchTest@909217e]" started-at="2025-04-25T01:22:50 EDT" name="tearDown" finished-at="2025-04-25T01:22:50 EDT" duration-ms="120" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="searchWithNoProduct()[pri:3, instance:com.tutorialsNinja.TestCases.SearchTest@909217e]" started-at="2025-04-16T22:25:33 EDT" name="searchWithNoProduct" finished-at="2025-04-16T22:25:33 EDT" depends-on-methods="com.tutorialsNinja.TestCases.SearchTest.searchWithInvalidProduct" duration-ms="0" status="SKIP">
+        <test-method signature="searchWithNoProduct()[pri:3, instance:com.tutorialsNinja.TestCases.SearchTest@909217e]" started-at="2025-04-25T01:22:50 EDT" name="searchWithNoProduct" finished-at="2025-04-25T01:22:50 EDT" depends-on-methods="com.tutorialsNinja.TestCases.SearchTest.searchWithInvalidProduct" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
               <![CDATA[Method com.tutorialsNinja.TestCases.SearchTest.searchWithNoProduct() on instance com.tutorialsNinja.TestCases.SearchTest@909217e depends on not successfully finished methods 
@@ -364,6 +146,56 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </reporter-output>
         </test-method> <!-- searchWithNoProduct -->
       </class> <!-- com.tutorialsNinja.TestCases.SearchTest -->
+      <class name="com.tutorialsNinja.TestCases.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@7d0b7e3c]" started-at="2025-04-25T01:22:02 EDT" name="setup" finished-at="2025-04-25T01:22:08 EDT" duration-ms="6797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithValidEmailInvalidPassword()[pri:2, instance:com.tutorialsNinja.TestCases.LoginTest@7d0b7e3c]" started-at="2025-04-25T01:22:08 EDT" name="verifyLoginWithValidEmailInvalidPassword" finished-at="2025-04-25T01:22:09 EDT" duration-ms="796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidEmailInvalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@7d0b7e3c]" started-at="2025-04-25T01:22:09 EDT" name="tearDown" finished-at="2025-04-25T01:22:09 EDT" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@7d0b7e3c]" started-at="2025-04-25T01:22:09 EDT" name="setup" finished-at="2025-04-25T01:22:13 EDT" duration-ms="3728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithInvalidEmailValidPassword()[pri:3, instance:com.tutorialsNinja.TestCases.LoginTest@7d0b7e3c]" started-at="2025-04-25T01:22:13 EDT" name="verifyLoginWithInvalidEmailValidPassword" finished-at="2025-04-25T01:22:14 EDT" duration-ms="767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidEmailValidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@7d0b7e3c]" started-at="2025-04-25T01:22:14 EDT" name="tearDown" finished-at="2025-04-25T01:22:14 EDT" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@7d0b7e3c]" started-at="2025-04-25T01:22:14 EDT" name="setup" finished-at="2025-04-25T01:22:19 EDT" duration-ms="5429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithInvalidCredentials()[pri:4, instance:com.tutorialsNinja.TestCases.LoginTest@7d0b7e3c]" started-at="2025-04-25T01:22:19 EDT" name="verifyLoginWithInvalidCredentials" finished-at="2025-04-25T01:22:20 EDT" duration-ms="659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@7d0b7e3c]" started-at="2025-04-25T01:22:20 EDT" name="tearDown" finished-at="2025-04-25T01:22:20 EDT" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@7d0b7e3c]" started-at="2025-04-25T01:22:20 EDT" name="setup" finished-at="2025-04-25T01:22:24 EDT" duration-ms="3406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithNoCredentials()[pri:5, instance:com.tutorialsNinja.TestCases.LoginTest@7d0b7e3c]" started-at="2025-04-25T01:22:24 EDT" name="verifyLoginWithNoCredentials" finished-at="2025-04-25T01:22:24 EDT" duration-ms="719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithNoCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.TestCases.LoginTest@7d0b7e3c]" started-at="2025-04-25T01:22:24 EDT" name="tearDown" finished-at="2025-04-25T01:22:24 EDT" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tutorialsNinja.TestCases.LoginTest -->
     </test> <!-- CompleteTest -->
   </suite> <!-- Hybrid Framework Suite -->
 </testng-results>

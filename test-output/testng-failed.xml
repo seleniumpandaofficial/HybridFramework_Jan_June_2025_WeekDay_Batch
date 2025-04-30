@@ -14,16 +14,6 @@
           <include name="searchWithInvalidProduct"/>
         </methods>
       </class> <!-- com.tutorialsNinja.TestCases.SearchTest -->
-      <class name="com.tutorialsNinja.TestCases.LoginTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="verifyLoginWithValidEmailInvalidPassword"/>
-          <include name="verifyLoginWithNoCredentials"/>
-          <include name="verifyLoginWithInvalidEmailValidPassword"/>
-          <include name="setup"/>
-          <include name="verifyLoginWithInvalidCredentials"/>
-        </methods>
-      </class> <!-- com.tutorialsNinja.TestCases.LoginTest -->
     </classes>
   </test> <!-- CompleteTest(failed) -->
 </suite> <!-- Failed suite [Hybrid Framework Suite] -->
